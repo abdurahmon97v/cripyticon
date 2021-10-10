@@ -5,11 +5,177 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/flexboxgrid.css">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <div class="fixsed__btn">
+    <a class="fixsed__link" href="#"><i class='bx bx-chevron-up'></i></a>
+  </div>
+  <div class="wrapper">
+    <section id="hero">
+      <div class="container">
+        <header class="hero__main-header main-header">
+          <a class="main-header__logos" href="#">
+            <img class="main-header__logo" src="https://themes.templatescoder.com/crypton/html/demo/1-0/02-Light-Theme/images/logo.png" alt="logo">
+          </a>
+          <nav class="main-header__nav nav"> 
+            <ul class="nav__list">
+              <li class="nav__item"><a class="nav__link" href="#">Home <i class='bx bx-chevron-down'></i> <i class='bx bx-plus'></i></a>
+                <ul class="nav__drop-doun drop-doun">
+                  <li class="drop-doun__item"><a class="drop-doun__link" href="#">Home</a></li>
+                  <li class="drop-doun__item"><a class="drop-doun__link drop-doun__link-not" href="#">Home TWO</a></li>
+                </ul>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="#">Pages <i class='bx bx-chevron-down'></i><i class='bx bx-plus'></i></a>
+                <ul class="nav__drop-doun drop-doun">
+                  <li class="drop-doun__item"><a class="drop-doun__link" href="#">About</a></li>
+                  <li class="drop-doun__item"><a class="drop-doun__link" href="#">Blog</a></li>
+                  <li class="drop-doun__item"><a class="drop-doun__link" href="#">Token Sale</a></li>
+                  <li class="drop-doun__item"><a class="drop-doun__link" href="#">Contact</a></li>
+                  <li class="drop-doun__item"><a class="drop-doun__link" href="#">FAQ</a></li>
+                  <li class="drop-doun__item"><a class="drop-doun__link drop-doun__link-not" href="#">Page 404</a></li>
+                </ul>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="#">Feature</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Roadmap</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Team</a></li>
+              <li class="nav__item"><a class="nav__link-btn btn" href="#">Sign in</a></li>
+            </ul>
+          </nav>
+          <div class="main-header__menu">
+            <button class="main-header__btn">
+              <span class="main-header__icon"></span>
+            </button>
+          </div>
+        </header>
+      </div>
+      <div class="hero__container container">
+        <div class="hero__row middle-md">
+          <div class="hero__des col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="hero__banner-contain">
+              <h2 class="hero__banner-heading">Invest In <span>Cryptocoin</span> Way To Trade</h2>
+              <p class="hero__banner-des">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
+              <a href="#" class="btn">Learn more</a>
+            </div>
+          </div>
+          <div class="hero__img col-lg-6 col-md-6  col-sm-6  col-xs-12">
+            <div class="banner-img">
+              <img class="hero__banner" src="https://themes.templatescoder.com/crypton/html/demo/1-0/02-Light-Theme/images/about-2.png" alt="banner">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section id="work">
+        <div class="work__container container">
+          <h2 class="work__sub-title">what is cryptcon</h2>
+          <h2 class="work__title">How it Works</h2>
+          <p class="work__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+          <div class="work__row row middle-sm">
+            <div class="work__blocks col-lg-6 col-md-6  col-sm-6  col-xs-12">
+              <div class="work__imgs">
+                <img class="work__blocks-img" src="https://themes.templatescoder.com/crypton/html/demo/1-0/02-Light-Theme/images/work-petern.png" alt="work">
+                <img class="work__img" src="https://themes.templatescoder.com/crypton/html/demo/1-0/02-Light-Theme/images/work-process.png" alt="work">
+              </div>
+            </div>
+            <div class="work__blocks col-lg-6 col-md-6  col-sm-6  col-xs-12">
+              <div class="work__des">
+                <h3 class="work__iner-title">We’ve built a platform to buy and sell shares.</h3>
+                <p class="work__iner-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer </p>
+                <ul class="work__list">
+                  <li class="work__item"><i class='bx bxs-check-circle'></i><p>Lorem Ipsum is simply dummy text of the printing and typesetting</p></li>
+                  <li class="work__item"><i class='bx bxs-check-circle'></i><p>Lorem Ipsum is simply dummy text of the printing and typesetting</p></li>
+                  <li class="work__item"><i class='bx bxs-check-circle'></i><p>Lorem Ipsum is simply dummy text of the printing and typesetting</p></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="futures">
+        <div class="futures__container container">
+          <h2 class="work__sub-title">cryptcon Feature</h2>
+          <h2 class="work__title">Best Features</h2>
+          <p class="work__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+          <div class="futures__row row">
+            <div class="futures__all col-md-4 col-sm-4 col-xs-12">
+              <div class="futures__box">
+                <div class="futures__icon">
+                  <img src="https://themes.templatescoder.com/crypton/html/demo/1-0/02-Light-Theme/images/feature-1.png" alt="icon">
+                </div>
+                <div class="futures__content">
+                  <a class="futures__link" href="#" >Safe &amp; Secure</a>
+                  <p class="futures__iner-text">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet. </p>
+                </div>
+              </div>
+            </div>
+            <div class="futures__all col-md-4 col-sm-4 col-xs-12">
+              <div class="futures__box">
+                <div class="futures__icon">
+                  <img src="https://themes.templatescoder.com/crypton/html/demo/1-0/02-Light-Theme/images/feature-2.png" alt="icon">
+                </div>
+                <div class="futures__content">
+                  <a class="futures__link" href="#" >Early Bonus</a>
+                  <p class="futures__iner-text">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet. </p>
+                </div>
+              </div>
+            </div>
+            <div class="futures__all col-md-4 col-sm-4 col-xs-12">
+              <div class="futures__box">
+                <div class="futures__icon">
+                  <img src="https://themes.templatescoder.com/crypton/html/demo/1-0/02-Light-Theme/images/feature-3.png" alt="icon">
+                </div>
+                <div class="futures__content">
+                  <a class="futures__link" href="#" >Univarsal Access</a>
+                  <p class="futures__iner-text">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet. </p>
+                </div>
+              </div>
+            </div>
+            <div class="futures__all col-md-4 col-sm-4 col-xs-12">
+              <div class="futures__box">
+                <div class="futures__icon">
+                  <img src="https://themes.templatescoder.com/crypton/html/demo/1-0/02-Light-Theme/images/feature-4.png" alt="icon">
+                </div>
+                <div class="futures__content">
+                  <a class="futures__link" href="#" >Secure Storage</a>
+                  <p class="futures__iner-text">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet. </p>
+                </div>
+              </div>
+            </div>
+            <div class="futures__all col-md-4 col-sm-4 col-xs-12">
+              <div class="futures__box">
+                <div class="futures__icon">
+                  <img src="https://themes.templatescoder.com/crypton/html/demo/1-0/02-Light-Theme/images/feature-5.png" alt="icon">
+                </div>
+                <div class="futures__content">
+                  <a class="futures__link" href="#" >Low Cost</a>
+                  <p class="futures__iner-text">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet. </p>
+                </div>
+              </div>
+            </div>
+            <div class="futures__all col-md-4 col-sm-4 col-xs-12">
+              <div class="futures__box">
+                <div class="futures__icon">
+                  <img src="https://themes.templatescoder.com/crypton/html/demo/1-0/02-Light-Theme/images/feature-6.png" alt="icon">
+                </div>
+                <div class="futures__content">
+                  <a class="futures__link" href="#" >Several Profit</a>
+                  <p class="futures__iner-text">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
   <script src="./js/main.js"></script>
 </body>
 </html>
