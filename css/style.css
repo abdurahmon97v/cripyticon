@@ -254,16 +254,18 @@ p{
     margin-right: 32px;
   }
 }
+
 .banner-img{
-  overflow: hidden;
+  overflow-x: hidden;
   animation-name: movup;
-  animation-duration: 2s;
+  animation-duration: 7s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
 .hero__des{
   position: relative;
-  overflow: hidden;
+  overflow-x:hidden;
+  overflow-y: hidden;
 }
 @keyframes movup {
   0%{
@@ -400,6 +402,14 @@ p{
   }
   .viz{
    text-transform: uppercase;
+   position: fixed;
+   left: 0;
+   padding-left: 15px;
+   padding-right: 15px;
+   right: 0;
+   top: 0;
+   z-index: 10000;
+   background-color: #fff;
   }
   .nav{
     display: block;
@@ -408,11 +418,14 @@ p{
     height: 0;
     background-color: #16d5ff;
     top: 62px;
+    position: fixed;
     z-index: 4;
+    left: 0;
+    right: 0;
     transition: height .4s ease;
   }
   .nav--height{
-    height: 39rem;
+    height: 100vh; 
     transition: all .4s ease;
   }
   .viz .main-header__icon{
@@ -487,6 +500,9 @@ p{
   }
   .main-header__logo{
     width: 120px;
+  }
+  .hero__banner-heading{
+    font-size: 30px;
   }
   
 }
