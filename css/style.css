@@ -549,24 +549,24 @@ p{
   left: 152px;
   bottom: 60px;
   animation-name: scale;
-  animation-duration: 4s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: ease;
 }
 @keyframes scale {
   0%{
-    transform: scale(0.6);
+    transform: scale(0.9);
   }
   50%{
     transform: scale(1.3);
   }
   100%{
-    transform: scale(0.6);
+    transform: scale(0.9);
   }
 }
 .work__img{
   animation-name: karusel;
-  animation-duration: 15s;
+  animation-duration: 20s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   transform-origin: center center;
@@ -1096,9 +1096,49 @@ p{
   .apps--img{
     margin-top: 50px;
   }
+  .blog__block:nth-child(3){
+    display: none;
+  }
 }
 @media screen and (max-width:768px) {
   .blog__elements{
     margin-bottom: 30px;
   }
+  .blog__block:nth-child(2){
+    display: none;
+  }
+}
+.blog__imgs{
+  transition: all .4s ease;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.blog__imgs img{
+  transition: transform .4s ease;
+}
+.blog__elements:hover .blog__imgs{
+  filter: brightness(0.6);
+  
+}
+.blog__elements:hover .blog__imgs img{
+  transform: scale(1.1);
+}
+
+.faqs__list{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.faqs__link{
+  padding: 20px 20px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #999999;
+  border-bottom: 2px solid transparent;
+}
+.activ--faqs{
+  border-bottom: 2px solid #16d5ff;
+  color: #16d5ff;
 }
