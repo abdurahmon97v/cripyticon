@@ -17,7 +17,7 @@ body {
   min-height: 100vh;
   background-color: #fff;
   font-family: 'Lato', sans-serif;
-  
+  overflow-x: hidden;
   
 }
 
